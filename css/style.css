@@ -43,7 +43,8 @@ body::-webkit-scrollbar {
 
 body {
   background-image: url("../images/background.png");
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .body-wrap {
   padding: 0 20px;
