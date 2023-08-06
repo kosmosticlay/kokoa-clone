@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Chats List */
+.chats-main {
+  padding-bottom: 60px;
+}
+.chats__list {
+  margin-top: 15px;
+}
+.chats__data {
+  display: flex;
+  align-items: center;
+  margin: 10px 3px;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.chats__data:hover {
+  box-shadow: 1px 1px 5px 0 black;
+}
+.chats-section {
+  height: calc(100vh - 10px);
+  overflow: scroll;
+}
+.chats__data .user-profile__column:last-child {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700;800;900&family=Alexandria:wght@300;400;800;900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700;800;900&family=Alexandria:wght@300;400;800;900&family=Hahmlet:wght@300;400;500;600;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav.css";
+@import "components/today-news.css";
+@import "components/notification.css";
+@import "components/user-component.css";
+@import "components/sub-header.css";
+@import "components/search-bar.css";
+@import "components/chat-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/splash-screen.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/open-chats.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/chat-screen.css";
+@import "screens/settings.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-weight: 500;
+  font-family: "Advent Pro", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: url("../images/background.png");
+  object-fit: cover;
+}
+.body-wrap {
+  padding: 0 20px;
+}
+
+.live-stream__product:first-child {
+  background-image: url("../images/exhibition1.jpg");
+}
+.live-stream__product:last-child {
+  background-image: url("../images/exhibition2.jpg");
+}
+.chat-main {
+  background-image: url("../images/chat-screen.png");
+}
+.welcome-main {
+  background-image: url("../images/leaf-main.png");
+}

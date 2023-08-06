@@ -1,0 +1,20 @@
+#search-bar__input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: bisque;
+  margin-bottom: 10px;
+  padding: 0 50px;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 18px;
+}
+#search-bar__input:focus {
+  outline: none;
+}
+.search__form i {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  cursor: pointer;
+}

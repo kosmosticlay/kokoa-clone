@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <div class="body-wrap">
+      <header class="screen-header">
+        <h2 class="screen-header__title">Shopping</h2>
+        <ul class="screen-header__icon-list">
+          <li>
+            <a href="#" class="screen-header__icon"
+              ><i class="fas fa-shopping-cart fa-lg"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="screen-header__icon"
+              ><i class="fas fa-cog fa-lg"></i
+            ></a>
+            <div class="dot-notification notification--header"></div>
+          </li>
+        </ul>
+      </header>
+      <nav class="sub-nav">
+        <ul class="sub-nav__list">
+          <li class="sub-nav__data"><a href="#">Home</a></li>
+          <li class="sub-nav__data"><a href="#">Rank</a></li>
+          <li class="sub-nav__data"><a href="#">Event</a></li>
+          <li class="sub-nav__data"><a href="#">Live</a></li>
+          <li class="sub-nav__data"><a href="#">Beauty</a></li>
+          <li class="sub-nav__data"><a href="#">Food</a></li>
+        </ul>
+      </nav>
+      <section class="live-stream">
+        <div class="live-stream__product">
+          <div class="live-stream__tag">
+            <div id="live">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span>EVENT</span>
+          </div>
+          <div class="live-stream__details">
+            <div class="live-stream__details__title">
+              Leafy Mart <br />Grand Sale
+            </div>
+            <div class="live-stream__details__text">
+              <i class="fas fa-bullhorn"></i>
+              <span>New Arrivals in Leafy! </span>
+            </div>
+          </div>
+        </div>
+        <div class="live-stream__product">
+          <div class="live-stream__tag__list">
+            <div class="live-stream__tag">
+              <span>Up to 40% off</span>
+            </div>
+            <div class="live-stream__tag">
+              <span>Deal</span>
+            </div>
+          </div>
+          <div class="live-stream__details">
+            <div class="live-stream__details__title">
+              Succulent Pots<br />with Bamboo Tray
+            </div>
+            <div class="live-stream__details__text">
+              <div>
+                <span>Contemporary Design for plant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ul class="shopping-menu__list">
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fas fa-gift fa-lg"></i>
+          </div>
+          <span>Gift</span>
+        </li>
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fas fa-money-bill-wave fa-lg"></i>
+          </div>
+          <span>Luxury</span>
+        </li>
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fas fa-thumbs-up fa-lg"></i>
+          </div>
+          <span>Suggest</span>
+        </li>
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fas fa-share fa-lg"></i>
+          </div>
+          <span>Share</span>
+        </li>
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fab fa-shopify fa-lg"></i>
+          </div>
+          <span>MyShop</span>
+        </li>
+        <li class="shopping-menu__data">
+          <div class="profile__image profile__sm">
+            <i class="fas fa-hand-holding-usd fa-lg"></i>
+          </div>
+          <span>Donate</span>
+        </li>
+      </ul>
+      <form class="search__form">
+        <input
+          type="text"
+          name="search-bar"
+          id="search-bar__input"
+          placeholder="Search Products"
+        />
+        <i class="fas fa-search fa-lg"></i>
+      </form>
+      <div class="shopping-main-ad">
+        <img src="images/shopping-main-ad.png" alt="" />
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__icon"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__icon"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+          <span class="number-notification noti--nav flip-effect">2</span>
+        </li>
+        <li class="nav__btn">
+          <a href="open-chats.html" class="nav__icon"
+            ><i class="fas fa-comments fa-2x"></i
+          ></a>
+          <span class="number-notification noti--nav">999+</span>
+        </li>
+        <li class="nav__btn">
+          <a href="shopping.html" class="nav__icon nav__icon__focused"
+            ><i class="fas fa-shopping-bag fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__icon"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+          <div class="dot-notification"></div>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>😅</span>
+      <span>Too big to use Leafy Talk..</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

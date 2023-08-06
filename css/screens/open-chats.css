@@ -1,0 +1,40 @@
+/* Search Bar for Open Chats */
+.search__form {
+  position: relative;
+}
+
+/* Open Chats Tags */
+.tag-list {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.tag-list::-webkit-scrollbar {
+  display: none;
+}
+
+.tag-data span {
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 0 5px;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.tag-data span:hover {
+  background-color: var(--main-color-dark);
+  color: white;
+}
+
+/* Open Chat List */
+.open-chats__main {
+  padding-bottom: 60px;
+}

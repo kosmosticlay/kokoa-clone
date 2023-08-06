@@ -1,0 +1,16 @@
+.sub-header {
+  height: 30px;
+  padding-top: 10px;
+  border-top: var(--common-border);
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sub-header i {
+  margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+.settings-main {
+  width: 100%;
+  height: calc(100vh - 110px);
+  position: absolute;
+  top: 110px;
+  z-index: -10;
+  padding: 0 10px;
+}
+
+.settings-menu {
+  width: 100%;
+  border-top: 1px solid black;
+}
+.settings-menu__list {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.settings-menu__data {
+  padding: 20px 10px;
+  display: flex;
+}
+
+.settings-menu__data .user-profile__column:first-child {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}

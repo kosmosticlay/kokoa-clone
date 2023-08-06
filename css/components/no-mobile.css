@@ -1,0 +1,24 @@
+#no-mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-color-light);
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#no-mobile span:first-child {
+  font-size: 200px;
+}
+#no-mobile span:last-child {
+  font-size: 50px;
+  padding: 20px 0;
+}
+@media screen and (max-width: 670px) {
+  #no-mobile {
+    display: none;
+  }
+}

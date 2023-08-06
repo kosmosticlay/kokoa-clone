@@ -1,0 +1,125 @@
+/* Wallet */
+.wallet {
+  width: 100%;
+  height: 200px;
+  background-color: var(--main-color-light);
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.wallet-header i {
+  margin: 0 5px;
+}
+.wallet-header__column:first-child span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.wallet-ad {
+  width: 92%;
+  height: 40px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.wallet-ad i {
+  position: absolute;
+  right: 30px;
+}
+.wallet-leafy-pay {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: 700;
+}
+.wallet-leafy-pay__column:last-child {
+  font-size: 20px;
+}
+.wallet-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.wallet-nav__column {
+  display: flex;
+}
+.wallet-nav__column:last-child span {
+  margin: 0 10px;
+}
+.wallet-nav__menu {
+  padding: 0 10px;
+  border-right: 1px solid black;
+  cursor: pointer;
+}
+.wallet-nav__menu:last-child {
+  border-right: none;
+}
+
+/* More Icons */
+.more-icons {
+  margin-top: 215px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.more-icons__row {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-icons__data {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--main-color-dark);
+  position: relative;
+}
+.more-icons__data span {
+  margin-top: 6px;
+  font-size: 18px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.more-icons__data span:hover {
+  border-bottom: 1px solid var(--main-color-dark);
+}
+
+.more-ad {
+  width: 100%;
+  height: 170px;
+  background-color: #dacfcf;
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px;
+  cursor: pointer;
+}

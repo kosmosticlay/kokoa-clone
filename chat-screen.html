@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with Kosmosticlay</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar status-bar--fixed">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <header class="chat-header">
+      <div class="chat-header__column">
+        <a href="chats.html"> <i class="fas fa-arrow-left fa-lg"></i></a>
+      </div>
+      <div class="chat-header__column">Kosmosticlay</div>
+      <div class="chat-header__column">
+        <i class="fas fa-search fa-lg"></i> <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+    <main class="chat-main">
+      <div class="chat__timestamp">2023.08.05 Saturday</div>
+      <div class="chat__user">
+        <div class="chat__user__column">
+          <img
+            class="profile__image profile__sm"
+            src="images/users/kosmosticlay.jpeg"
+          />
+        </div>
+        <div class="chat__user__column">
+          <span class="chat__user-name">Kosmosticlay</span>
+          <span class="chat__user__msg"
+            >1차 과제를 하는데 2박3일이 걸린거 같아..</span
+          >
+        </div>
+        <div class="chat__user__column">10:47</div>
+      </div>
+      <div class="chat__user--right">
+        <div class="chat__user__column">
+          <span class="chat__user__msg chat--right">헉</span>
+        </div>
+      </div>
+      <div class="chat__user--right">
+        <div class="chat__user__column">
+          <span class="chat__user__msg chat--right"
+            >헉 다음에는 미리 시작하자!!</span
+          >
+        </div>
+        <div class="chat__user__column">10:47</div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fas fa-plus fa-lg"></i>
+      </div>
+      <input id="reply_input" type="text" placeholder="Write a message..." />
+      <div class="reply__column">
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-paper-plane fa-lg"></i>
+        </button>
+      </div>
+    </form>
+    <ul class="keyboard">
+      <li class="keyboard__row">
+        <span class="keyboard__key keyboard__key--icon fa-lg"
+          ><i class="far fa-image"></i
+        ></span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="far fa-smile-wink fa-lg"></i
+        ></span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-icons fa-lg"></i
+        ></span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-microphone fa-lg"></i
+        ></span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-cog fa-lg"></i
+        ></span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-ellipsis-h fa-lg"></i
+        ></span>
+      </li>
+      <li class="keyboard__row">
+        <span class="keyboard__key">1</span>
+        <span class="keyboard__key">2</span>
+        <span class="keyboard__key">3</span>
+        <span class="keyboard__key">4</span>
+        <span class="keyboard__key">5</span>
+        <span class="keyboard__key">6</span>
+        <span class="keyboard__key">7</span>
+        <span class="keyboard__key">8</span>
+        <span class="keyboard__key">9</span>
+        <span class="keyboard__key">0</span>
+      </li>
+      <li class="keyboard__row">
+        <span class="keyboard__key">q</span>
+        <span class="keyboard__key">w</span>
+        <span class="keyboard__key">e</span>
+        <span class="keyboard__key">r</span>
+        <span class="keyboard__key">t</span>
+        <span class="keyboard__key">y</span>
+        <span class="keyboard__key">u</span>
+        <span class="keyboard__key">i</span>
+        <span class="keyboard__key">o</span>
+        <span class="keyboard__key">p</span>
+      </li>
+      <li class="keyboard__row">
+        <span class="keyboard__key">a</span>
+        <span class="keyboard__key">s</span>
+        <span class="keyboard__key">d</span>
+        <span class="keyboard__key">f</span>
+        <span class="keyboard__key">g</span>
+        <span class="keyboard__key">h</span>
+        <span class="keyboard__key">j</span>
+        <span class="keyboard__key">k</span>
+        <span class="keyboard__key">l</span>
+      </li>
+      <li class="keyboard__row">
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-arrow-up"></i
+        ></span>
+        <span class="keyboard__key">z</span>
+        <span class="keyboard__key">x</span>
+        <span class="keyboard__key">c</span>
+        <span class="keyboard__key">v</span>
+        <span class="keyboard__key">b</span>
+        <span class="keyboard__key">n</span>
+        <span class="keyboard__key">m</span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="far fa-window-close"></i
+        ></span>
+      </li>
+      <li class="keyboard__row">
+        <span class="keyboard__key keyboard__key--icon">!#1</span>
+        <span class="keyboard__key"><i class="fas fa-globe"></i></span>
+        <span class="keyboard__key">?</span>
+        <span class="keyboard__key keyboard__key--spacebar">spacebar</span>
+        <span class="keyboard__key">.</span>
+        <span class="keyboard__key keyboard__key--icon"
+          ><i class="fas fa-sign-in-alt"></i
+        ></span>
+      </li>
+    </ul>
+    <div id="no-mobile">
+      <span>😅</span>
+      <span>Too big to use Leafy Talk..</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
